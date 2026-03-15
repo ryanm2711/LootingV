@@ -1,7 +1,7 @@
 # LootingV
 This is a rewrite of my old LootingV script, written in C++.
 
-#Features:
+## Features:
 
 - Can loot vehicles and dead pedestrians.
 - Loot tiers, player can get more money depending on the area and class of vehicle.
@@ -9,10 +9,10 @@ This is a rewrite of my old LootingV script, written in C++.
 - Replaces old way of retrieving money from dead pedestrians.
 - Now supports gamepad & keyboard
 
-#How to install:
+## How to install:
 - Make sure you have prerequisites installed first!
 - Simply move LootingV.asi into GTA V root directory (Same directory ScriptHookV exists).
 
-#Prerequisites
+## Prerequisites
 - Latest version of ScriptHookV
 - Latest version of Microsoft's C++ Redistributable 
