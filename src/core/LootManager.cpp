@@ -90,7 +90,7 @@ void LootManager::QueryNearbyLootableEntities() {
 	const int box_size = 1;
 	//GRAPHICS::DRAW_BOX(entityPos.x, entityPos.y, entityPos.z, entityPos.x + box_size, entityPos.y + box_size, entityPos.z + box_size, 255, 0, 0, 255);
 
-	if (ENTITY::IS_ENTITY_A_PED(closestEntity) && PED::IS_PED_DEAD_OR_DYING(closestEntity, false) && !PED::IS_PED_SITTING_IN_ANY_VEHICLE(closestEntity)) {
+	if (ENTITY::IS_ENTITY_A_PED(closestEntity) && PED::IS_PED_DEAD_OR_DYING(closestEntity, false) && !PED::IS_PED_SITTING_IN_ANY_VEHICLE(closestEntity) && PED::IS_PED_HUMAN(closestEntity)) {
 		if (HasEntityBeenLooted(closestEntity)) {
 			m_LootableObject = nullptr;
 			return;
