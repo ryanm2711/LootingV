@@ -1,5 +1,5 @@
 # LootingV
-This is a rewrite of my old LootingV script, written in C++.
+This is a rewrite of my old LootingV script, written in C++ - https://www.gta5-mods.com/scripts/deathblips-looting-included-ryanm2711
 
 ## Features:
 
