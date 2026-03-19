@@ -61,7 +61,7 @@ void BlipManager::RegisterValidEntitiesForBlips(std::function<bool(Entity)> addC
 	for (int i = 0; i < pedCount; i++) {
 		Ped ped = pedBuffer[i];
 
-		if (!ENTITY::DOES_ENTITY_EXIST(ped) || !PED::IS_PED_DEAD_OR_DYING(ped, false)) {
+		if (!ENTITY::DOES_ENTITY_EXIST(ped) || !PED::IS_PED_DEAD_OR_DYING(ped, false) || ped == PLAYER::PLAYER_PED_ID()) {
 			continue;
 		}
 
